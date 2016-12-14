@@ -1,0 +1,32 @@
+body {
+  font-size: 16px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+
+.loading-icon {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+}
+
+li[ui-sref]:hover {
+  display: inline-block;
+  cursor: pointer;
+  border: solid black 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.container{margin-bottom:50px}
+.alert a, .alert a:visited{margin-right:20px;display:inline-block}
+.alert a:hover,.alert a:focus{text-decoration:none;color:#000;}
+
+.menuItems{margin:0 0 0 15px;padding:0}
+.menuItems li{list-style-type:none;margin-bottom:5px}
+.menuItems li a:hover{text-decoration:none;color:#000;font-weight:bold}
